@@ -1,0 +1,25 @@
+{
+  "name": "typescript-web-app",
+  "version": "1.0.0",
+  "description": "A basic TypeScript web application",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "tsc && python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "typescript",
+    "web",
+    "vanilla"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@webgpu/types": "^0.1.64"
+  }
+}
